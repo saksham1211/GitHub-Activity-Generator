@@ -19,12 +19,17 @@ Uses the `--date` Switch to Create Commits in the Past.
 
 ## Usage
 
-- Create a new, empty repository on GitHub. Do not add a README.md File or initialize the repository.
+- Create a new, empty repository on GitHub. Do not add a README.md File or initialize the repository.[IMPORTANT]
 - Clone this Repository or copy the [hack.py](hack.py) file and save it.
+- Open git bash and change the directory to the folder where hack.py file is saved.
 - Execute the following Command(s):
   - `python hack.py --repository=https://github.com/user/repo.git` (HTTPS Method: Authenticate Account) [Suggested]
+  or
   - `python hack.py --repository=git@github.com:user/repo.git` (HTTP Method: Configure an SSH Access)
-  
+- Make sure your git credentials are correct, otherwise you will see the 'access denied' error in the end.
+- Once you get the successfull message in the git bash, open your Github ID and check.
+- If you don't see any changes, kindly log out and again login in your Github Account. Now changes will reflect in your account.
+
     - If `python` doesn't help, please try `py`
     - Maximum Commits currently stand at 20. Make changes to Line 60 and 61, if you wish to change (not recommended) [`if max_c > 20:
         max_c = 20`]
