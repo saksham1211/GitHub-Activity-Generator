@@ -27,7 +27,7 @@ Uses the `--date` Switch to Create Commits in the Past.
   or
   - `python hack.py --repository=git@github.com:user/repo.git` (HTTP Method: Configure an SSH Access)
 - Make sure your git credentials are correct, otherwise you will see the 'access denied' error in the end.
-- Once you get the successfull message in the git bash, open your Github ID and check.
+- Once you get the successful message in the git bash, open your Github ID and check.
 - If you don't see any changes, kindly log out and again login in your Github Account. Now changes will reflect in your account.
 
     - If `python` doesn't help, please try `py`
