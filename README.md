@@ -21,7 +21,7 @@ Uses the `--date` Switch to Create Commits in the Past.
 
 - Create a new, empty repository on GitHub. Do not add a README.md File or initialize the repository.[IMPORTANT]
 - Clone this Repository or copy the [hack.py](hack.py) file and save it.
-- Open git bash and change the directory to the folder where 'hack.py' file is saved.
+- Open git bash and change the directory to the folder where `hack.py` file is saved.
 - Execute the following Command(s):
   - `python hack.py --repository=https://github.com/user/repo.git` (HTTPS Method: Authenticate Account) [Suggested]
   or
